@@ -49,8 +49,8 @@ addons:
       - python3-pip
 
 before_install:
-- pip install --user cpp-coveralls
-- | 
+  - | 
+  - pip install --user cpp-coveralls
     if [ "$TRAVIS_OS_NAME" == "osx" ]; then
         brew update;
         ver=$(python -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/');
