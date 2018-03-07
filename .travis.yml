@@ -50,7 +50,6 @@ addons:
 
 before_install:
   - | 
-  - pip install --user cpp-coveralls
     if [ "$TRAVIS_OS_NAME" == "osx" ]; then
         brew update;
         ver=$(python -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/');
@@ -86,7 +85,6 @@ before_script:
 
 
 script:
-  - ./configure --enable-gcov && make && make check
   - mkdir "build" && cd build
   - 'if [ "$TRAVIS_BRANCH" == "release" ]; then
     qmake ../ PREFIX=/usr CONFIG+=release DEFINES+=QT_NO_DEBUG_OUTPUT DEFINES+=PENCIL2D_RELEASE;
@@ -97,7 +95,6 @@ script:
   - "$TRAVIS_BUILD_DIR/build/tests/tests"
 
 after_success:
-  - coveralls --exclude lib --exclude tests --gcov-options '\-lp'
   - echo "look for build folder and zip file"
   - ls
   - 'if [ "$TRAVIS_OS_NAME" == "linux" ]; then
