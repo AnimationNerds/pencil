@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="es">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.1">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -12,27 +10,7 @@
     <message>
         <location filename="../app/ui/aboutdialog.ui" line="52"/>
         <source>Official site: &lt;a href=&quot;http://pencil2d.github.io&quot;&gt;pencil2d.github.io&lt;/a&gt;&lt;br&gt;Developed by: &lt;b&gt;Pascal Naidon, Patrick Corrieri, Matt Chang&lt;/b&gt;&lt;br&gt;Thanks to Qt Framework &lt;a href=&quot;https://www.qt.io/download&quot;&gt;https://www.qt.io/&lt;/a&gt;&lt;br&gt;miniz: &lt;a href=&quot;https://github.com/richgel999/miniz&quot;&gt;https://github.com/richgel999/miniz&lt;/a&gt;&lt;br&gt;Distributed under the &lt;a href=&quot;http://www.gnu.org/licenses/gpl-2.0.html&quot;&gt;GNU General Public License, version 2&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Official site: &lt;a href=&quot;http://pencil2d.github.io&quot;&gt;pencil2d.github.io&lt;/a&gt;</source>
-        <translation type="vanished">Sitio oficial: &lt;a href=&quot;http://pencil2d.github.io&quot;&gt; pencil2d.github.io&lt;/a&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;br&gt;Developed by: &lt;b&gt;Pascal Naidon, Patrick Corrieri, Matt Chang&lt;/b&gt;</source>
-        <translation type="vanished">&lt;br&gt; Desarrollado por: &lt;b&gt;Pascal Naidon, Patrick Corrieri, Matt Chang &lt;/b&gt; </translation>
-    </message>
-    <message>
-        <source>&lt;br&gt;Thanks to Qt Framework &lt;a href=&quot;https://www.qt.io/download&quot;&gt;https://www.qt.io/&lt;/a&gt;</source>
-        <translation type="vanished">&lt;br&gt;Gracias a Qt Framework &lt;a href=&quot;https://www.qt.io/download&quot;&gt;https://www.qt.io/&lt;/a&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;br&gt;miniz: &lt;a href=&quot;https://github.com/richgel999/miniz&quot;&gt;https://github.com/richgel999/miniz&lt;/a&gt;</source>
-        <translation type="vanished">&lt;br&gt;miniz: &lt;a href=&quot;https://github.com/richgel999/miniz&quot;&gt;https://github.com/richgel999/miniz&lt;/a&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;br&gt;Distributed under the &lt;a href=&quot;http://www.gnu.org/licenses/gpl-2.0.html&quot;&gt;GNU General Public License, version 2&lt;/a&gt;</source>
-        <translation type="vanished">&lt;br&gt;Distribuido bajo la &lt;a href=&quot;http://www.gnu.org/licenses/gpl-2.0.html&quot;&gt;GNU General Public License, 2a versión &lt;/a&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/aboutdialog.cpp" line="46"/>
@@ -45,10 +23,6 @@
         <source>Copy to clipboard</source>
         <comment>Copy system info from About Dialog</comment>
         <translation>Copiar al portapapeles</translation>
-    </message>
-    <message>
-        <source>OK</source>
-        <translation type="vanished">OK</translation>
     </message>
 </context>
 <context>
@@ -83,7 +57,7 @@
     <message>
         <location filename="../app/actioncommands.cpp" line="189"/>
         <source>Exporting movie</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/actioncommands.cpp" line="230"/>
@@ -112,10 +86,6 @@
         <location filename="../app/actioncommands.cpp" line="108"/>
         <source>A sound clip already exists on this frame! Please select another frame or layer.</source>
         <translation>Un clip de sonido ya existe en esta célula! Por favor seleccionar otra célula o capa</translation>
-    </message>
-    <message>
-        <source>Exporting movie...</source>
-        <translation type="vanished">Exportando vídeo</translation>
     </message>
     <message>
         <location filename="../app/actioncommands.cpp" line="286"/>
@@ -238,7 +208,7 @@
     <message>
         <location filename="../core_lib/ui/camerapropertiesdialog.ui" line="6"/>
         <source>Camera Properties</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core_lib/ui/camerapropertiesdialog.ui" line="14"/>
@@ -250,21 +220,13 @@
         <source>Camera size:</source>
         <translation>Tamaño de la cámara:</translation>
     </message>
-    <message>
-        <source>Ok</source>
-        <translation type="vanished">Ok</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="vanished">Cancelar</translation>
-    </message>
 </context>
 <context>
     <name>ColorBox</name>
     <message>
         <location filename="../app/colorbox.cpp" line="24"/>
         <source>Color Wheel</source>
-        <comment>Color Wheel&apos;s window title</comment>
+        <comment>Color Wheel's window title</comment>
         <translation>Círculo Cromático</translation>
     </message>
 </context>
@@ -324,14 +286,10 @@
 <context>
     <name>ColorPalette</name>
     <message>
-        <source>Color Palette</source>
-        <translation type="vanished">Paleta de color</translation>
-    </message>
-    <message>
         <location filename="../app/ui/colorpalette.ui" line="6"/>
         <source>Color Palette</source>
         <comment>Window title of color palette.</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/colorpalette.ui" line="47"/>
@@ -351,114 +309,65 @@
     <message>
         <location filename="../app/ui/colorpalette.ui" line="188"/>
         <source>List Mode</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/colorpalette.ui" line="191"/>
         <source>Show palette as a list</source>
-        <translation type="unfinished">Mostrar paleta como lista</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/colorpalette.ui" line="199"/>
         <source>Grid Mode</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/colorpalette.ui" line="202"/>
         <source>Show palette as icons</source>
-        <translation type="unfinished">Mostrar paleta como icono</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/colorpalette.ui" line="212"/>
         <source>Small swatch</source>
-        <translation type="unfinished">Muestra pequeña</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/colorpalette.ui" line="215"/>
         <source>Sets swatch size to: 16x16px</source>
-        <translation type="unfinished">Dimensionar muestra a: 16x16px</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/colorpalette.ui" line="223"/>
         <source>Medium Swatch</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/colorpalette.ui" line="226"/>
         <source>Sets swatch size to: 26x26px</source>
-        <translation type="unfinished">Dimensionar muestra a: 26x26px</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/colorpalette.ui" line="237"/>
         <source>Large Swatch</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/colorpalette.ui" line="240"/>
         <source>Sets swatch size to: 36x36px</source>
-        <translation type="unfinished">Dimensionar muestra a: 36x36px</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
     <name>ColorPaletteWidget</name>
-    <message>
-        <source>Color Palette</source>
-        <comment>Window title of color palette.</comment>
-        <translation type="vanished">Paleta de color</translation>
-    </message>
     <message>
         <location filename="../app/colorpalettewidget.cpp" line="152"/>
         <location filename="../app/colorpalettewidget.cpp" line="153"/>
         <source>Colour name</source>
         <translation>Nombre del color</translation>
     </message>
-    <message>
-        <source>List mode</source>
-        <translation type="vanished">Estilo lista</translation>
-    </message>
-    <message>
-        <source>Show palette as a list</source>
-        <translation type="vanished">Mostrar paleta como lista</translation>
-    </message>
-    <message>
-        <source>Grid mode</source>
-        <translation type="vanished">Estilo cuadrícula</translation>
-    </message>
-    <message>
-        <source>Show palette as icons</source>
-        <translation type="vanished">Mostrar paleta como icono</translation>
-    </message>
-    <message>
-        <source>Small swatch</source>
-        <translation type="vanished">Muestra pequeña</translation>
-    </message>
-    <message>
-        <source>Sets swatch size to: 16x16px</source>
-        <translation type="vanished">Dimensionar muestra a: 16x16px</translation>
-    </message>
-    <message>
-        <source>Medium swatch</source>
-        <translation type="vanished">Muestra media</translation>
-    </message>
-    <message>
-        <source>Sets swatch size to: 26x26px</source>
-        <translation type="vanished">Dimensionar muestra a: 26x26px</translation>
-    </message>
-    <message>
-        <source>Large swatch</source>
-        <translation type="vanished">Muestra grande</translation>
-    </message>
-    <message>
-        <source>Sets swatch size to: 36x36px</source>
-        <translation type="vanished">Dimensionar muestra a: 36x36px</translation>
-    </message>
 </context>
 <context>
     <name>DisplayOption</name>
-    <message>
-        <source>Form</source>
-        <translation type="vanished">Forma</translation>
-    </message>
     <message>
         <location filename="../app/ui/displayoption.ui" line="67"/>
         <source>Horizontal flip</source>
@@ -479,7 +388,7 @@
         <location filename="../app/ui/displayoption.ui" line="14"/>
         <source>Display</source>
         <comment>Window title of display options like .</comment>
-        <translation type="unfinished">Mostrar</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/displayoption.ui" line="125"/>
@@ -522,24 +431,16 @@
     </message>
 </context>
 <context>
-    <name>DisplayOptionWidget</name>
-    <message>
-        <source>Display</source>
-        <comment>Window title of display options like .</comment>
-        <translation type="vanished">Mostrar</translation>
-    </message>
-</context>
-<context>
     <name>DoubleProgressDialog</name>
     <message>
         <location filename="../app/ui/doubleprogressdialog.ui" line="27"/>
         <source>Loading...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/doubleprogressdialog.ui" line="56"/>
         <source>Cancel</source>
-        <translation type="unfinished">Cancelar</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -791,47 +692,19 @@
         <translation>Camino inválido</translation>
     </message>
     <message>
-        <source>The file path (&quot;%1&quot;) points to a directory.</source>
-        <translation type="vanished">La dirección del archivo (&quot;%1&quot;) apunta a una carpeta</translation>
-    </message>
-    <message>
-        <source>The file path (&quot;%1&quot;) is in a directory (&quot;%2&quot;) which does not exist.</source>
-        <translation type="vanished">La direccion del archivo (&quot;%1&quot;) está en un directorio (&quot;%2&quot;) que no existe.</translation>
-    </message>
-    <message>
-        <source>The file path (&quot;%1&quot;) cannot be written to.</source>
-        <translation type="vanished">No se ha podido escribir en la dirección del archivo: (&quot;%1&quot;) </translation>
-    </message>
-    <message>
-        <source>Cannot Create Data directory at &quot;%1&quot;. Please make sure that you have sufficient permissions.</source>
-        <translation type="vanished">No se ha podido crear el directorio en &quot;%1&quot;. Por favor asegurate de tener los permisos necesarios.</translation>
-    </message>
-    <message>
-        <source>Cannot create the data directory at temporary location &quot;%1&quot;. Please make sure that you have sufficient permissions.</source>
-        <translation type="vanished">No se ha podido crear el directorio temporal en &quot;%1&quot;. Por favor asegurate de tener los permisos necesarios.</translation>
-    </message>
-    <message>
-        <source>The path &quot;%1&quot; points to a file. Please move or delete that file and try again.</source>
-        <translation type="vanished">La dirección &quot;%1&quot; apunta a un archivo. Por favor eliminalo o muevelo de carpeta e intenta de nuevo.</translation>
-    </message>
-    <message>
-        <source>Cannot open the directory &quot;%1&quot; since it is a file.</source>
-        <translation type="vanished">No hemos podido abri el directorio &quot;%1&quot; debido a que es un archivo.</translation>
-    </message>
-    <message>
         <location filename="../core_lib/structure/filemanager.cpp" line="198"/>
         <source>The path (&quot;%1&quot;) points to a directory.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core_lib/structure/filemanager.cpp" line="207"/>
         <source>The directory (&quot;%1&quot;) does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core_lib/structure/filemanager.cpp" line="215"/>
         <source>The path (&quot;%1&quot;) is not writable.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core_lib/structure/filemanager.cpp" line="253"/>
@@ -842,12 +715,12 @@
     <message>
         <location filename="../core_lib/structure/filemanager.cpp" line="254"/>
         <source>Failed to create directory &quot;%1&quot;. Please make sure you have sufficient permissions.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core_lib/structure/filemanager.cpp" line="263"/>
         <source>&quot;%1&quot; is a file. Please delete the file and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core_lib/structure/filemanager.cpp" line="291"/>
@@ -857,11 +730,7 @@
     <message>
         <location filename="../core_lib/structure/filemanager.cpp" line="292"/>
         <source>An internal error occurred. Your file may not be saved successfully.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>An internal error occurred while trying to save the file. Some or all of your file may not have saved.</source>
-        <translation type="vanished">Un error interno ocurrió al intentar grabar el archivo. Es posible que algunos o todos los archivos no se hayan guardado</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -883,21 +752,6 @@
         <source>Number of modifications before autosaving:</source>
         <comment>Preference</comment>
         <translation>Número de modificaciones antes de autoguardar:</translation>
-    </message>
-    <message>
-        <source>Clear recent files list</source>
-        <comment>Clear Recent Files (Preference)</comment>
-        <translation type="vanished">Elimilar lista de archivos recientes</translation>
-    </message>
-    <message>
-        <source>This will clear your list of recently opened files</source>
-        <comment>Clear Recent Files (Preference)</comment>
-        <translation type="vanished">Esto eliminará tu lista de archivos abiertos recientes</translation>
-    </message>
-    <message>
-        <source>Clear</source>
-        <comment>Clear Recent Files (Preference)</comment>
-        <translation type="vanished">Limpiar</translation>
     </message>
 </context>
 <context>
@@ -931,7 +785,7 @@
         <location filename="../app/ui/generalpage.ui" line="60"/>
         <source>[System-Language]</source>
         <comment>First item of the language list</comment>
-        <translation type="unfinished">[Lenguaje-del-sistema]</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/generalpage.ui" line="174"/>
@@ -950,10 +804,6 @@
         <source>Grid</source>
         <comment>groupBox title in Preference</comment>
         <translation>Cuadrícula</translation>
-    </message>
-    <message>
-        <source>[System-Language]</source>
-        <translation type="vanished">[Lenguaje-del-sistema]</translation>
     </message>
     <message>
         <location filename="../app/preferencesdialog.cpp" line="95"/>
@@ -1977,11 +1827,6 @@ Quiere gravarla ahora?</translation>
         <translation>Preferencias</translation>
     </message>
     <message>
-        <source>Close</source>
-        <comment>Close button of preference dialog.</comment>
-        <translation type="vanished">Cerrar</translation>
-    </message>
-    <message>
         <location filename="../app/ui/preferencesdialog.ui" line="65"/>
         <source>General</source>
         <translation>General</translation>
@@ -2012,33 +1857,33 @@ Quiere gravarla ahora?</translation>
     <message>
         <location filename="../core_lib/movieexporter.cpp" line="140"/>
         <source>Checking environment...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core_lib/movieexporter.cpp" line="175"/>
         <source>Assembling audio...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core_lib/movieexporter.cpp" line="182"/>
         <source>Generating frames...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core_lib/movieexporter.cpp" line="192"/>
         <source>Generating palette...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core_lib/movieexporter.cpp" line="197"/>
         <location filename="../core_lib/movieexporter.cpp" line="204"/>
         <source>Combining...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core_lib/movieexporter.cpp" line="211"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -3742,20 +3587,12 @@ Quiere gravarla ahora?</translation>
         <location filename="../app/ui/timelinepage.ui" line="60"/>
         <source>Timeline length:</source>
         <comment>Preferences</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Draw timeline labels</source>
-        <translation type="vanished">Dibujar Etiquetas en la Línea de Tiempo</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/timelinepage.ui" line="26"/>
         <source>Frame size</source>
         <translation>Tamaño Célula</translation>
-    </message>
-    <message>
-        <source>Timeline size in Frames</source>
-        <translation type="vanished">Tamaño Linea de Tiempo en Fotogramas</translation>
     </message>
     <message>
         <location filename="../app/ui/timelinepage.ui" line="79"/>

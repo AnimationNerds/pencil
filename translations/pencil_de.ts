@@ -1,34 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.1">
 <context>
     <name>AboutDialog</name>
     <message>
         <location filename="../app/ui/aboutdialog.ui" line="26"/>
         <source>About</source>
         <comment>About Dialog Window Title</comment>
-        <translation type="unfinished">Über</translation>
+        <translation>Über</translation>
     </message>
     <message>
         <location filename="../app/ui/aboutdialog.ui" line="52"/>
         <source>Official site: &lt;a href=&quot;http://pencil2d.github.io&quot;&gt;pencil2d.github.io&lt;/a&gt;&lt;br&gt;Developed by: &lt;b&gt;Pascal Naidon, Patrick Corrieri, Matt Chang&lt;/b&gt;&lt;br&gt;Thanks to Qt Framework &lt;a href=&quot;https://www.qt.io/download&quot;&gt;https://www.qt.io/&lt;/a&gt;&lt;br&gt;miniz: &lt;a href=&quot;https://github.com/richgel999/miniz&quot;&gt;https://github.com/richgel999/miniz&lt;/a&gt;&lt;br&gt;Distributed under the &lt;a href=&quot;http://www.gnu.org/licenses/gpl-2.0.html&quot;&gt;GNU General Public License, version 2&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Offizielle Seite: &lt;a href=&quot;http://pencil2d.github.io&quot;&gt;pencil2d.github.io&lt;/a&gt;&lt;br&gt;Entwickelt von: &lt;b&gt;Pascal Naidon, Patrick Corrieri, Matt Chang&lt;/b&gt;&lt;br&gt;Danke an das Qt Framework &lt;a href=&quot;https://www.qt.io/download&quot;&gt;https://www.qt.io/&lt;/a&gt;&lt;br&gt;miniz: &lt;a href=&quot;https://github.com/richgel999/miniz&quot;&gt;https://github.com/richgel999/miniz&lt;/a&gt;&lt;br&gt;Verbreitet unter der &lt;a href=&quot;http://www.gnu.org/licenses/gpl-2.0.html&quot;&gt;GNU General Public License, Version 2&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../app/aboutdialog.cpp" line="46"/>
         <source>Version: %1</source>
         <comment>Version Number in About Dialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Version: %1</translation>
     </message>
     <message>
         <location filename="../app/aboutdialog.cpp" line="58"/>
         <source>Copy to clipboard</source>
         <comment>Copy system info from About Dialog</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>OK</source>
-        <translation type="vanished">OK</translation>
+        <translation>In die Zwischenablage kopieren</translation>
     </message>
 </context>
 <context>
@@ -52,24 +46,24 @@
         <location filename="../app/actioncommands.cpp" line="80"/>
         <source>Layer Properties</source>
         <comment>Dialog title on creating a sound layer</comment>
-        <translation type="unfinished">Ebenen-Eigenschaften</translation>
+        <translation>Ebeneneigenschaften</translation>
     </message>
     <message>
         <location filename="../app/actioncommands.cpp" line="82"/>
         <source>Sound Layer</source>
         <comment>Default name on creating a sound layer</comment>
-        <translation type="unfinished">Ton-Ebene</translation>
+        <translation>Ton-Ebene</translation>
     </message>
     <message>
         <location filename="../app/actioncommands.cpp" line="189"/>
         <source>Exporting movie</source>
-        <translation type="unfinished"></translation>
+        <translation>Film wird exportiert</translation>
     </message>
     <message>
         <location filename="../app/actioncommands.cpp" line="230"/>
         <source>Finished. Open movie now?</source>
         <comment>When movie export done.</comment>
-        <translation type="unfinished"></translation>
+        <translation>Erledigt. Film jetzt öffnen?</translation>
     </message>
     <message>
         <location filename="../app/actioncommands.cpp" line="551"/>
@@ -92,10 +86,6 @@
         <location filename="../app/actioncommands.cpp" line="108"/>
         <source>A sound clip already exists on this frame! Please select another frame or layer.</source>
         <translation>Auf diesem Frame existiert bereits eine Tonspur! Bitte wähle einen anderen Frame oder eine andere Ebene.</translation>
-    </message>
-    <message>
-        <source>Exporting movie...</source>
-        <translation type="vanished">Film wird exportiert...</translation>
     </message>
     <message>
         <location filename="../app/actioncommands.cpp" line="286"/>
@@ -141,18 +131,18 @@
         <location filename="../app/actioncommands.cpp" line="611"/>
         <source>Delete Layer</source>
         <comment>Windows title of Delete current layer pop-up.</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ebene löschen</translation>
     </message>
     <message>
         <location filename="../app/actioncommands.cpp" line="612"/>
         <source>Are you sure you want to delete layer: </source>
-        <translation type="unfinished">Sind Sie sicher, dass Sie die Ebene löschen möchten: </translation>
+        <translation>Sind Sie sicher, dass Sie die Ebene löschen möchten: </translation>
     </message>
     <message>
         <location filename="../app/actioncommands.cpp" line="621"/>
         <source>Please keep at least one camera layer in project</source>
         <comment>text when failed to delete camera layer</comment>
-        <translation type="unfinished"></translation>
+        <translation>Bitte belassen Sie mindestens eine Kamera-Ebene im Projekt</translation>
     </message>
 </context>
 <context>
@@ -218,7 +208,7 @@
     <message>
         <location filename="../core_lib/ui/camerapropertiesdialog.ui" line="6"/>
         <source>Camera Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Kameraeigenschaften</translation>
     </message>
     <message>
         <location filename="../core_lib/ui/camerapropertiesdialog.ui" line="14"/>
@@ -230,21 +220,13 @@
         <source>Camera size:</source>
         <translation>Maße der Kamera:</translation>
     </message>
-    <message>
-        <source>Ok</source>
-        <translation type="vanished">Ok</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="vanished">Abbrechen</translation>
-    </message>
 </context>
 <context>
     <name>ColorBox</name>
     <message>
         <location filename="../app/colorbox.cpp" line="24"/>
         <source>Color Wheel</source>
-        <comment>Color Wheel&apos;s window title</comment>
+        <comment>Color Wheel's window title</comment>
         <translation>Farbrad</translation>
     </message>
 </context>
@@ -304,14 +286,10 @@
 <context>
     <name>ColorPalette</name>
     <message>
-        <source>Color Palette</source>
-        <translation type="vanished">Farbpalette</translation>
-    </message>
-    <message>
         <location filename="../app/ui/colorpalette.ui" line="6"/>
         <source>Color Palette</source>
         <comment>Window title of color palette.</comment>
-        <translation type="unfinished">Farbpalette</translation>
+        <translation>Farbpalette</translation>
     </message>
     <message>
         <location filename="../app/ui/colorpalette.ui" line="47"/>
@@ -331,114 +309,65 @@
     <message>
         <location filename="../app/ui/colorpalette.ui" line="188"/>
         <source>List Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Listenmodus</translation>
     </message>
     <message>
         <location filename="../app/ui/colorpalette.ui" line="191"/>
         <source>Show palette as a list</source>
-        <translation type="unfinished">Palette als Liste anzeigen</translation>
+        <translation>Palette als Liste anzeigen</translation>
     </message>
     <message>
         <location filename="../app/ui/colorpalette.ui" line="199"/>
         <source>Grid Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Rastermodus</translation>
     </message>
     <message>
         <location filename="../app/ui/colorpalette.ui" line="202"/>
         <source>Show palette as icons</source>
-        <translation type="unfinished">Palette als Symbole anzeigen</translation>
+        <translation>Palette als Symbole anzeigen</translation>
     </message>
     <message>
         <location filename="../app/ui/colorpalette.ui" line="212"/>
         <source>Small swatch</source>
-        <translation type="unfinished">Kleine Vorschau</translation>
+        <translation>Kleine Vorschau</translation>
     </message>
     <message>
         <location filename="../app/ui/colorpalette.ui" line="215"/>
         <source>Sets swatch size to: 16x16px</source>
-        <translation type="unfinished">Setzt Vorschaugröße auf: 16x16px</translation>
+        <translation>Setzt Vorschaugröße auf: 16x16px</translation>
     </message>
     <message>
         <location filename="../app/ui/colorpalette.ui" line="223"/>
         <source>Medium Swatch</source>
-        <translation type="unfinished"></translation>
+        <translation>Mittlere Vorschau</translation>
     </message>
     <message>
         <location filename="../app/ui/colorpalette.ui" line="226"/>
         <source>Sets swatch size to: 26x26px</source>
-        <translation type="unfinished">Setzt Vorschaugröße auf: 26x26px</translation>
+        <translation>Setzt Vorschaugröße auf: 26x26px</translation>
     </message>
     <message>
         <location filename="../app/ui/colorpalette.ui" line="237"/>
         <source>Large Swatch</source>
-        <translation type="unfinished"></translation>
+        <translation>Große Vorschau</translation>
     </message>
     <message>
         <location filename="../app/ui/colorpalette.ui" line="240"/>
         <source>Sets swatch size to: 36x36px</source>
-        <translation type="unfinished">Setzt Vorschaugröße auf: 36x36px</translation>
+        <translation>Setzt Vorschaugröße auf: 36x36px</translation>
     </message>
 </context>
 <context>
     <name>ColorPaletteWidget</name>
-    <message>
-        <source>Color Palette</source>
-        <comment>Window title of color palette.</comment>
-        <translation type="vanished">Farbpalette</translation>
-    </message>
     <message>
         <location filename="../app/colorpalettewidget.cpp" line="152"/>
         <location filename="../app/colorpalettewidget.cpp" line="153"/>
         <source>Colour name</source>
         <translation>Name der Farbe</translation>
     </message>
-    <message>
-        <source>List mode</source>
-        <translation type="vanished">Listenmodus</translation>
-    </message>
-    <message>
-        <source>Show palette as a list</source>
-        <translation type="vanished">Palette als Liste anzeigen</translation>
-    </message>
-    <message>
-        <source>Grid mode</source>
-        <translation type="vanished">Rastermodus</translation>
-    </message>
-    <message>
-        <source>Show palette as icons</source>
-        <translation type="vanished">Palette als Symbole anzeigen</translation>
-    </message>
-    <message>
-        <source>Small swatch</source>
-        <translation type="vanished">Kleine Vorschau</translation>
-    </message>
-    <message>
-        <source>Sets swatch size to: 16x16px</source>
-        <translation type="vanished">Setzt Vorschaugröße auf: 16x16px</translation>
-    </message>
-    <message>
-        <source>Medium swatch</source>
-        <translation type="vanished">Mittlere Vorschau</translation>
-    </message>
-    <message>
-        <source>Sets swatch size to: 26x26px</source>
-        <translation type="vanished">Setzt Vorschaugröße auf: 26x26px</translation>
-    </message>
-    <message>
-        <source>Large swatch</source>
-        <translation type="vanished">Große Vorschau</translation>
-    </message>
-    <message>
-        <source>Sets swatch size to: 36x36px</source>
-        <translation type="vanished">Setzt Vorschaugröße auf: 36x36px</translation>
-    </message>
 </context>
 <context>
     <name>DisplayOption</name>
-    <message>
-        <source>Form</source>
-        <translation type="vanished">Formular</translation>
-    </message>
     <message>
         <location filename="../app/ui/displayoption.ui" line="67"/>
         <source>Horizontal flip</source>
@@ -459,7 +388,7 @@
         <location filename="../app/ui/displayoption.ui" line="14"/>
         <source>Display</source>
         <comment>Window title of display options like .</comment>
-        <translation type="unfinished">Anzeige</translation>
+        <translation>Anzeige</translation>
     </message>
     <message>
         <location filename="../app/ui/displayoption.ui" line="125"/>
@@ -502,24 +431,16 @@
     </message>
 </context>
 <context>
-    <name>DisplayOptionWidget</name>
-    <message>
-        <source>Display</source>
-        <comment>Window title of display options like .</comment>
-        <translation type="vanished">Anzeige</translation>
-    </message>
-</context>
-<context>
     <name>DoubleProgressDialog</name>
     <message>
         <location filename="../app/ui/doubleprogressdialog.ui" line="27"/>
         <source>Loading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Wird geladen...</translation>
     </message>
     <message>
         <location filename="../app/ui/doubleprogressdialog.ui" line="56"/>
         <source>Cancel</source>
-        <translation type="unfinished">Abbrechen</translation>
+        <translation>Abbrechen</translation>
     </message>
 </context>
 <context>
@@ -533,7 +454,7 @@
     <message>
         <location filename="../core_lib/interface/editor.cpp" line="967"/>
         <source>Remove frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Einzelbild entfernen</translation>
     </message>
     <message>
         <location filename="../core_lib/interface/editor.cpp" line="782"/>
@@ -669,12 +590,12 @@
     <message>
         <location filename="../app/ui/exportmovieoptions.ui" line="217"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;End frame is set to last paintable keyframe (Useful when you only want to export to the last animated frame)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/exportmovieoptions.ui" line="223"/>
         <source>To the end of sound clips</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -753,7 +674,7 @@
     <message>
         <location filename="../app/filedialogex.cpp" line="175"/>
         <source>MP4 (*.mp4);;AVI (*.avi);; WebM (*.webm);; GIF (*.gif)</source>
-        <translation type="unfinished"></translation>
+        <translation>MP4 (*.mp4);;AVI (*.avi);; WebM (*.webm);; GIF (*.gif)</translation>
     </message>
     <message>
         <location filename="../app/filedialogex.cpp" line="187"/>
@@ -773,17 +694,17 @@
     <message>
         <location filename="../core_lib/structure/filemanager.cpp" line="198"/>
         <source>The path (&quot;%1&quot;) points to a directory.</source>
-        <translation type="unfinished"></translation>
+        <translation>Der Pfad („%1“) zeigt auf ein Verzeichnis.</translation>
     </message>
     <message>
         <location filename="../core_lib/structure/filemanager.cpp" line="207"/>
         <source>The directory (&quot;%1&quot;) does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Das Verzeichnis („%1“) existiert nicht.</translation>
     </message>
     <message>
         <location filename="../core_lib/structure/filemanager.cpp" line="215"/>
         <source>The path (&quot;%1&quot;) is not writable.</source>
-        <translation type="unfinished"></translation>
+        <translation>Der Pfad („%1“) ist nicht beschreibbar.</translation>
     </message>
     <message>
         <location filename="../core_lib/structure/filemanager.cpp" line="253"/>
@@ -794,12 +715,12 @@
     <message>
         <location filename="../core_lib/structure/filemanager.cpp" line="254"/>
         <source>Failed to create directory &quot;%1&quot;. Please make sure you have sufficient permissions.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core_lib/structure/filemanager.cpp" line="263"/>
         <source>&quot;%1&quot; is a file. Please delete the file and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>„%1“ ist eine Datei. Bitte löschen Sie die Datei und versuchen Sie es erneut.</translation>
     </message>
     <message>
         <location filename="../core_lib/structure/filemanager.cpp" line="291"/>
@@ -809,11 +730,7 @@
     <message>
         <location filename="../core_lib/structure/filemanager.cpp" line="292"/>
         <source>An internal error occurred. Your file may not be saved successfully.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>An internal error occurred while trying to save the file. Some or all of your file may not have saved.</source>
-        <translation type="vanished">Ein interner Fehler ist beim Versuch, die Datei zu speichern, aufgetreten. Ein Teil oder die Gesamtheit ihrer Datei wurde womöglich nicht gespeichert.</translation>
+        <translation>Ein interner Fehler ist aufgetreten. Ihre Datei wurde möglicherweise nicht erfolgreich gespeichert.</translation>
     </message>
 </context>
 <context>
@@ -835,21 +752,6 @@
         <source>Number of modifications before autosaving:</source>
         <comment>Preference</comment>
         <translation>Anzahl der Änderungen, bevor automatisch gespeichert wird:</translation>
-    </message>
-    <message>
-        <source>Clear recent files list</source>
-        <comment>Clear Recent Files (Preference)</comment>
-        <translation type="vanished">Liste zuletzt geöffneter Dateien leeren</translation>
-    </message>
-    <message>
-        <source>This will clear your list of recently opened files</source>
-        <comment>Clear Recent Files (Preference)</comment>
-        <translation type="vanished">Dies wird Ihre Liste zuletzt geöffneter Dateien leeren.</translation>
-    </message>
-    <message>
-        <source>Clear</source>
-        <comment>Clear Recent Files (Preference)</comment>
-        <translation type="vanished">Leeren</translation>
     </message>
 </context>
 <context>
@@ -883,7 +785,7 @@
         <location filename="../app/ui/generalpage.ui" line="60"/>
         <source>[System-Language]</source>
         <comment>First item of the language list</comment>
-        <translation type="unfinished"></translation>
+        <translation>[Systemsprache]</translation>
     </message>
     <message>
         <location filename="../app/ui/generalpage.ui" line="174"/>
@@ -1474,7 +1376,7 @@
     <message>
         <location filename="../app/ui/mainwindow2.ui" line="783"/>
         <source>MultiLayer Onion Skin</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/mainwindow2.ui" line="794"/>
@@ -1484,12 +1386,12 @@
     <message>
         <location filename="../app/ui/mainwindow2.ui" line="867"/>
         <source>Pencil2D Website</source>
-        <translation type="unfinished"></translation>
+        <translation>Pencil2D-Website</translation>
     </message>
     <message>
         <location filename="../app/ui/mainwindow2.ui" line="872"/>
         <source>Report a Bug</source>
-        <translation type="unfinished"></translation>
+        <translation>Einen Fehler melden</translation>
     </message>
     <message>
         <location filename="../app/ui/mainwindow2.ui" line="756"/>
@@ -1541,12 +1443,12 @@
     <message>
         <location filename="../app/ui/mainwindow2.ui" line="857"/>
         <source>Move Frame Forward</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/mainwindow2.ui" line="862"/>
         <source>Move Frame Backward</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/mainwindow2.cpp" line="140"/>
@@ -1645,7 +1547,7 @@ Sie haben die Liste erfolgreich geleert</translation>
     <message>
         <location filename="../app/mainwindow2.cpp" line="1093"/>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -1801,12 +1703,12 @@ Sie haben die Liste erfolgreich geleert</translation>
     <message>
         <location filename="../app/main.cpp" line="90"/>
         <source>Name of the camera layer to use</source>
-        <translation type="unfinished"></translation>
+        <translation>Name der zu verwendenden Kamera-Ebene</translation>
     </message>
     <message>
         <location filename="../app/main.cpp" line="91"/>
         <source>layer_name</source>
-        <translation type="unfinished"></translation>
+        <translation>Ebenenname</translation>
     </message>
     <message>
         <location filename="../app/main.cpp" line="95"/>
@@ -1827,18 +1729,18 @@ Sie haben die Liste erfolgreich geleert</translation>
     <message>
         <location filename="../app/main.cpp" line="105"/>
         <source>The first frame you want to include in the exported movie</source>
-        <translation type="unfinished">Das erste Bild, das Sie in den exportierten Film einbeziehen möchten</translation>
+        <translation>Das erste Bild, das Sie in den exportierten Film einbeziehen möchten</translation>
     </message>
     <message>
         <location filename="../app/main.cpp" line="106"/>
         <location filename="../app/main.cpp" line="113"/>
         <source>frame</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/main.cpp" line="110"/>
         <source>The last frame you want to include in the exported movie. Can also be last or last-sound to automatically use the last frame containing animation or sound, respectively</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/main.cpp" line="117"/>
@@ -1858,22 +1760,22 @@ Sie haben die Liste erfolgreich geleert</translation>
     <message>
         <location filename="../app/main.cpp" line="156"/>
         <source>Warning: start value %1 is not an integer, ignoring.</source>
-        <translation type="unfinished"></translation>
+        <translation>Warnung: Startwert %1 ist keine Ganzzahl, wird ignoriert.</translation>
     </message>
     <message>
         <location filename="../app/main.cpp" line="161"/>
         <source>Warning: start value must be at least 1, ignoring.</source>
-        <translation type="unfinished"></translation>
+        <translation>Warnung: Startwert muss mindestens 1 sein, wird ignoriert.</translation>
     </message>
     <message>
         <location filename="../app/main.cpp" line="181"/>
         <source>Warning: end value %1 is not an integer, last or last-sound, ignoring.</source>
-        <translation type="unfinished"></translation>
+        <translation>Warnung: Endwert %1 ist keine Ganzzahl, last oder last-sound, wird ignoriert.</translation>
     </message>
     <message>
         <location filename="../app/main.cpp" line="187"/>
         <source>Warning: end value %1 is smaller than start value %2, ignoring.</source>
-        <translation type="unfinished"></translation>
+        <translation>Warnung: Endwert %1 ist kleiner als Startwert %2, wird ignoriert.</translation>
     </message>
     <message>
         <location filename="../app/main.cpp" line="198"/>
@@ -1883,17 +1785,17 @@ Sie haben die Liste erfolgreich geleert</translation>
     <message>
         <location filename="../app/main.cpp" line="238"/>
         <source>Warning: the specified camera layer %1 was not found, ignoring.</source>
-        <translation type="unfinished"></translation>
+        <translation>Warnung: Die angegebene Kamera-Ebene %1 wurde nicht gefunden, wird ignoriert.</translation>
     </message>
     <message>
         <location filename="../app/main.cpp" line="288"/>
         <source>Warning: Transparency is not currenty supported in movie files</source>
-        <translation type="unfinished"></translation>
+        <translation>Warnung: Transparenz wird in Filmdateien derzeit nicht unterstützt</translation>
     </message>
     <message>
         <location filename="../app/main.cpp" line="290"/>
         <source>Exporting movie...</source>
-        <translation type="unfinished">Film wird exportiert...</translation>
+        <translation>Film wird exportiert...</translation>
     </message>
     <message>
         <location filename="../app/main.cpp" line="295"/>
@@ -1930,11 +1832,6 @@ Sie haben die Liste erfolgreich geleert</translation>
         <translation>Einstellungen</translation>
     </message>
     <message>
-        <source>Close</source>
-        <comment>Close button of preference dialog.</comment>
-        <translation type="vanished">Schließen</translation>
-    </message>
-    <message>
         <location filename="../app/ui/preferencesdialog.ui" line="65"/>
         <source>General</source>
         <translation>Allgemein</translation>
@@ -1965,33 +1862,33 @@ Sie haben die Liste erfolgreich geleert</translation>
     <message>
         <location filename="../core_lib/movieexporter.cpp" line="140"/>
         <source>Checking environment...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core_lib/movieexporter.cpp" line="175"/>
         <source>Assembling audio...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core_lib/movieexporter.cpp" line="182"/>
         <source>Generating frames...</source>
-        <translation type="unfinished"></translation>
+        <translation>Einzelbilder werden generiert...</translation>
     </message>
     <message>
         <location filename="../core_lib/movieexporter.cpp" line="192"/>
         <source>Generating palette...</source>
-        <translation type="unfinished"></translation>
+        <translation>Palette wird generiert...</translation>
     </message>
     <message>
         <location filename="../core_lib/movieexporter.cpp" line="197"/>
         <location filename="../core_lib/movieexporter.cpp" line="204"/>
         <source>Combining...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core_lib/movieexporter.cpp" line="211"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>Erledigt.</translation>
     </message>
 </context>
 <context>
@@ -3392,7 +3289,7 @@ Sie haben die Liste erfolgreich geleert</translation>
     <message>
         <location filename="../core_lib/interface/recentfilemenu.cpp" line="31"/>
         <source>Clear</source>
-        <translation type="unfinished">Leeren</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -3411,7 +3308,7 @@ Sie haben die Liste erfolgreich geleert</translation>
         <location filename="../core_lib/interface/scribblearea.cpp" line="1635"/>
         <source>Delete Selection</source>
         <comment>Undo Step: clear the selection area.</comment>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl löschen</translation>
     </message>
     <message>
         <location filename="../core_lib/interface/scribblearea.cpp" line="1651"/>
@@ -3423,17 +3320,17 @@ Sie haben die Liste erfolgreich geleert</translation>
     <message>
         <location filename="../core_lib/interface/scribblearea.cpp" line="1686"/>
         <source>There is a gap in your drawing (or maybe you have zoomed too much).</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core_lib/interface/scribblearea.cpp" line="1687"/>
         <source>Sorry! This doesn&apos;t always work.Please try again (zoom a bit, click at another location... )&lt;br&gt;if it doesn&apos;t work, zoom a bit and check that your paths are connected by pressing F1.).</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core_lib/interface/scribblearea.cpp" line="1691"/>
         <source>Out of bound.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core_lib/interface/scribblearea.cpp" line="1692"/>
@@ -3443,7 +3340,7 @@ Sie haben die Liste erfolgreich geleert</translation>
     <message>
         <location filename="../core_lib/interface/scribblearea.cpp" line="1693"/>
         <source>Could not find the root index.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core_lib/interface/scribblearea.cpp" line="1694"/>
@@ -3453,7 +3350,7 @@ Sie haben die Liste erfolgreich geleert</translation>
     <message>
         <location filename="../core_lib/interface/scribblearea.cpp" line="1694"/>
         <source>Flood fill error</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -3555,7 +3452,7 @@ Sie haben die Liste erfolgreich geleert</translation>
     <message>
         <location filename="../core_lib/interface/timecontrols.cpp" line="196"/>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -3633,18 +3530,18 @@ Sie haben die Liste erfolgreich geleert</translation>
     <message>
         <location filename="../core_lib/interface/timeline.cpp" line="143"/>
         <source>Toggle match keyframes</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core_lib/interface/timeline.cpp" line="280"/>
         <source>Delete Layer</source>
         <comment>Windows title of Delete current layer pop-up.</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ebene löschen</translation>
     </message>
     <message>
         <location filename="../core_lib/interface/timeline.cpp" line="290"/>
         <source>Please keep at least one camera layer in project</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitte belassen Sie mindestens eine Kamera-Ebene im Projekt</translation>
     </message>
     <message>
         <location filename="../core_lib/interface/timeline.cpp" line="281"/>
@@ -3657,12 +3554,12 @@ Sie haben die Liste erfolgreich geleert</translation>
     <message>
         <location filename="../core_lib/interface/timelinecells.cpp" line="707"/>
         <source>Layer Properties</source>
-        <translation type="unfinished">Ebenen-Eigenschaften</translation>
+        <translation>Ebeneneigenschaften</translation>
     </message>
     <message>
         <location filename="../core_lib/interface/timelinecells.cpp" line="708"/>
         <source>Layer name:</source>
-        <translation type="unfinished">Name der Ebene:</translation>
+        <translation>Ebenenname:</translation>
     </message>
 </context>
 <context>
@@ -3695,20 +3592,12 @@ Sie haben die Liste erfolgreich geleert</translation>
         <location filename="../app/ui/timelinepage.ui" line="60"/>
         <source>Timeline length:</source>
         <comment>Preferences</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Draw timeline labels</source>
-        <translation type="vanished">Beschriftungen auf Zeitleiste anzeigen</translation>
+        <translation>Länge der Zeitleiste:</translation>
     </message>
     <message>
         <location filename="../app/ui/timelinepage.ui" line="26"/>
         <source>Frame size</source>
         <translation>Größe der Einzelbilder</translation>
-    </message>
-    <message>
-        <source>Timeline size in Frames</source>
-        <translation type="vanished">Länge der Zeitleiste in Einzelbildern</translation>
     </message>
     <message>
         <location filename="../app/ui/timelinepage.ui" line="79"/>
@@ -3727,67 +3616,67 @@ Sie haben die Liste erfolgreich geleert</translation>
     <message>
         <location filename="../app/toolbox.cpp" line="77"/>
         <source>Pencil Tool (%1): Sketch with pencil</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/toolbox.cpp" line="79"/>
         <source>Select Tool (%1): Select an object</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl-Werkzeug (%1): Ein Objekt auswählen</translation>
     </message>
     <message>
         <location filename="../app/toolbox.cpp" line="81"/>
         <source>Move Tool (%1): Move an object</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/toolbox.cpp" line="83"/>
         <source>Hand Tool (%1): Move the canvas</source>
-        <translation type="unfinished"></translation>
+        <translation>Hand-Werkzeug (%1): Die Leinwand bewegen</translation>
     </message>
     <message>
         <location filename="../app/toolbox.cpp" line="85"/>
         <source>Pen Tool (%1): Sketch with pen</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/toolbox.cpp" line="87"/>
         <source>Eraser Tool (%1): Erase</source>
-        <translation type="unfinished"></translation>
+        <translation>Radierer-Werkzeug (%1): Radieren</translation>
     </message>
     <message>
         <location filename="../app/toolbox.cpp" line="89"/>
         <source>Polyline Tool (%1): Create line/curves</source>
-        <translation type="unfinished"></translation>
+        <translation>Polygonzug-Werkzeug (%1): Linien/Kurven erstellen</translation>
     </message>
     <message>
         <location filename="../app/toolbox.cpp" line="91"/>
         <source>Paint Bucket Tool (%1): Fill selected area with a color</source>
-        <translation type="unfinished"></translation>
+        <translation>Farbeimer-Werkzeug (%1): Ausgewählten Bereich mit einer Farbe ausfüllen</translation>
     </message>
     <message>
         <location filename="../app/toolbox.cpp" line="93"/>
         <source>Brush Tool (%1): Paint smooth stroke with a brush</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/toolbox.cpp" line="95"/>
         <source>Eyedropper Tool (%1): Set color from the stage&lt;br&gt;[ALT] for instant access</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/toolbox.cpp" line="98"/>
         <source>Clear Frame (%1): Erases content of selected frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Einzelbild leeren (%1): Löscht Inhalt des ausgewählten Einzelbilds</translation>
     </message>
     <message>
         <location filename="../app/toolbox.cpp" line="100"/>
         <source>Smudge Tool (%1):&lt;br&gt;Edit polyline/curves&lt;br&gt;Liquify bitmap pixels&lt;br&gt; (%1)+[Alt]: Smooth</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/toolbox.cpp" line="104"/>
         <source>Pencil Tool (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Bleistift-Werkzeug (%1)</translation>
     </message>
     <message>
         <location filename="../app/toolbox.cpp" line="106"/>
@@ -3797,52 +3686,52 @@ Sie haben die Liste erfolgreich geleert</translation>
     <message>
         <location filename="../app/toolbox.cpp" line="108"/>
         <source>Move Tool (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/toolbox.cpp" line="110"/>
         <source>Hand Tool (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Hand-Werkzeug (%1)</translation>
     </message>
     <message>
         <location filename="../app/toolbox.cpp" line="112"/>
         <source>Pen Tool (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/toolbox.cpp" line="114"/>
         <source>Eraser Tool (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Radierer-Werkzeug (%1)</translation>
     </message>
     <message>
         <location filename="../app/toolbox.cpp" line="116"/>
         <source>Polyline Tool (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Polygonzug-Werkzeug (%1)</translation>
     </message>
     <message>
         <location filename="../app/toolbox.cpp" line="118"/>
         <source>Paint Bucket Tool (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Farbeimer-Werkzeug (%1)</translation>
     </message>
     <message>
         <location filename="../app/toolbox.cpp" line="120"/>
         <source>Brush Tool (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/toolbox.cpp" line="122"/>
         <source>Eyedropper Tool (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Pipetten-Werkzeug (%1)</translation>
     </message>
     <message>
         <location filename="../app/toolbox.cpp" line="124"/>
         <source>Clear Tool (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/toolbox.cpp" line="126"/>
         <source>Smudge Tool (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -3866,7 +3755,7 @@ Sie haben die Liste erfolgreich geleert</translation>
         <location filename="../app/tooloptionwidget.cpp" line="32"/>
         <source>Options</source>
         <comment>Window title of tool option panel like pen width, feather etc..</comment>
-        <translation type="unfinished">Optionen</translation>
+        <translation>Optionen</translation>
     </message>
     <message>
         <location filename="../app/tooloptionwidget.cpp" line="182"/>
@@ -3884,107 +3773,107 @@ Sie haben die Liste erfolgreich geleert</translation>
     <message>
         <location filename="../app/ui/tooloptions.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished">Formular</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/tooloptions.ui" line="22"/>
         <source>Set Pen Width &lt;br&gt;&lt;b&gt;[SHIFT]+drag&lt;/b&gt;&lt;br&gt;for quick adjustment</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/tooloptions.ui" line="58"/>
         <source>Set Pen Feather &lt;br&gt;&lt;b&gt;[CTRL]+drag&lt;/b&gt;&lt;br&gt;for quick adjustment</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/tooloptions.ui" line="92"/>
         <source>Enable or disable feathering</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/tooloptions.ui" line="95"/>
         <source>Use Feather</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/tooloptions.ui" line="102"/>
         <source>Contour will be filled</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/tooloptions.ui" line="105"/>
         <source>Fill Contour</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/tooloptions.ui" line="114"/>
         <source>The extend to which the color variation will be treated as being equal</source>
-        <translation type="unfinished"></translation>
+        <translation>Das Maß, in dem Farbvariationen als gleich behandelt werden</translation>
     </message>
     <message>
         <location filename="../app/ui/tooloptions.ui" line="133"/>
         <source>Bezier</source>
-        <translation type="unfinished"></translation>
+        <translation>Bézier</translation>
     </message>
     <message>
         <location filename="../app/ui/tooloptions.ui" line="140"/>
         <source>Pressure</source>
-        <translation type="unfinished"></translation>
+        <translation>Druck</translation>
     </message>
     <message>
         <location filename="../app/ui/tooloptions.ui" line="147"/>
         <source>Anti-Aliasing</source>
-        <translation type="unfinished"></translation>
+        <translation>Kantenglättung</translation>
     </message>
     <message>
         <location filename="../app/ui/tooloptions.ui" line="154"/>
         <source>Make invisible</source>
-        <translation type="unfinished"></translation>
+        <translation>Unsichtbar machen</translation>
     </message>
     <message>
         <location filename="../app/ui/tooloptions.ui" line="157"/>
         <source>Invisible</source>
-        <translation type="unfinished"></translation>
+        <translation>Unsichtbar</translation>
     </message>
     <message>
         <location filename="../app/ui/tooloptions.ui" line="164"/>
         <source>Preserve Alpha</source>
-        <translation type="unfinished"></translation>
+        <translation>Alpha erhalten</translation>
     </message>
     <message>
         <location filename="../app/ui/tooloptions.ui" line="167"/>
         <source>Alpha</source>
-        <translation type="unfinished">Alpha</translation>
+        <translation>Alpha</translation>
     </message>
     <message>
         <location filename="../app/ui/tooloptions.ui" line="174"/>
         <source>Merge vector lines when they are close together</source>
-        <translation type="unfinished"></translation>
+        <translation>Vektorlinien zusammenfügen, wenn sie dicht beieinander sind</translation>
     </message>
     <message>
         <location filename="../app/ui/tooloptions.ui" line="177"/>
         <source>Merge</source>
-        <translation type="unfinished"></translation>
+        <translation>Zusammenfügen</translation>
     </message>
     <message>
         <location filename="../app/ui/tooloptions.ui" line="192"/>
         <source>Stabilizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Stabilisator</translation>
     </message>
     <message>
         <location filename="../app/ui/tooloptions.ui" line="200"/>
         <source>None</source>
-        <translation type="unfinished">Keine</translation>
+        <translation>Keiner</translation>
     </message>
     <message>
         <location filename="../app/ui/tooloptions.ui" line="205"/>
         <source>Simple</source>
-        <translation type="unfinished"></translation>
+        <translation>Einfach</translation>
     </message>
     <message>
         <location filename="../app/ui/tooloptions.ui" line="210"/>
         <source>Strong</source>
-        <translation type="unfinished"></translation>
+        <translation>Stark</translation>
     </message>
 </context>
 <context>
@@ -3997,12 +3886,12 @@ Sie haben die Liste erfolgreich geleert</translation>
     <message>
         <location filename="../app/ui/toolspage.ui" line="23"/>
         <source>Maximum onion opacity %</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/toolspage.ui" line="49"/>
         <source>Minimum onion opacity %</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app/ui/toolspage.ui" line="75"/>
@@ -4022,7 +3911,7 @@ Sie haben die Liste erfolgreich geleert</translation>
     <message>
         <location filename="../app/ui/toolspage.ui" line="142"/>
         <source>Use Quick Sizing</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 </TS>
