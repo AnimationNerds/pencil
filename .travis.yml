@@ -17,6 +17,7 @@ os:
 
 env:
   global:
+    - CC_TEST_REPORTER_ID=8bfcd1fc8bc9b4b0936f6fa4ae3e7be569110ec7710d28156290322acc94a604
     - DOXYFILE: $TRAVIS_BUILD_DIR/util/docs/Doxyfile-Travis
     - GH_REPO_REF: github.com/pencil2d/pencil-docs.git
     - DOXYGEN_OUTPUT_DIR: $TRAVIS_BUILD_DIR/docs
@@ -70,6 +71,9 @@ install:
   - pip3 -V
 
 before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
   - echo "are changes related to source code?"
   - 'if [ "$TRAVIS_BRANCH" != "release" ]; then
     bash $TRAVIS_BUILD_DIR/util/checkchanges.sh;
@@ -85,6 +89,7 @@ before_script:
 
 
 script:
+  - bundle exec rspec
   - mkdir "build" && cd build
   - 'if [ "$TRAVIS_BRANCH" == "release" ]; then
     qmake ../ PREFIX=/usr CONFIG+=release DEFINES+=QT_NO_DEBUG_OUTPUT DEFINES+=PENCIL2D_RELEASE;
@@ -93,6 +98,9 @@ script:
   fi'
   - make;
   - "$TRAVIS_BUILD_DIR/build/tests/tests"
+
+after_script:
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
 
 after_success:
   - echo "look for build folder and zip file"
