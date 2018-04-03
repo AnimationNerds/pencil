@@ -2,6 +2,8 @@
 
 # Pencil2D Animation [![Build Status](https://travis-ci.org/AnimationNerds/pencil.svg?branch=master)](https://travis-ci.org/AnimationNerds/pencil) [![Maintainability](https://api.codeclimate.com/v1/badges/b5183a09fd07451a173d/maintainability)](https://codeclimate.com/github/AnimationNerds/pencil/maintainability) [![Build status](https://ci.appveyor.com/api/projects/status/80lc864m2h0n7ixj?svg=true)](https://ci.appveyor.com/project/Droobledores/pencil)
 
+[![Join the chat at https://gitter.im/pencil2D_animation/Lobby](https://badges.gitter.im/pencil2D_animation/Lobby.svg)](https://gitter.im/pencil2D_animation/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 **Pencil2D** is an animation/drawing software for Mac OS X, Windows, and Linux. It lets you create traditional hand-drawn animation (cartoon) using both bitmap and vector graphics. Pencil2D is free and open source.
 
 ## Download ###
